@@ -1,6 +1,9 @@
 import requests
 from datetime import datetime
 from datetime import timedelta 
+
+
+
 class ScoreCard:
 
 	def __init__(self):
@@ -63,5 +66,5 @@ if __name__=="__main__":
 	auth_token = "68a84b68ef717b91c4c1a86a2d064c92"
 	client = Client(a_sid,auth_token)
 	#print(client)
-	message = client.messages.create(body=match_stats, from_="whatsapp:+14155238886",to="whatsapp:+91 9351249164")
+	message = client.messages.create(body=match_stats, from_="whatsapp:+14155238886",to="whatsapp:+91 7521098331")
 
